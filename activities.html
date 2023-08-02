@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activities</title>
+  <link rel="stylesheet" href="css/activities.css">
+  <style>
+    #title {
+      color: azure;
+    }
+
+    body {
+      background-image: url('home12.png');
+      background-repeat: no-repeat;
+      background-blend-mode: soft-light;
+      background-position: center;
+      background-size: cover;
+      overflow-x: hidden;
+      height: 100%;
+    }
+
+    .text {
+      text-align: left;
+      text-decoration: double;
+      font-size: x-large;
+      color: rgb(240, 235, 235);
+    }
+
+    #div1 {
+      text-align: center;
+      font-size: xx-large;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+      text-align: justify;
+      padding: 15px;
+      padding-right: 30px;
+
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .image {
+      flex-basis: 40%;
+      align-items: first baseline;
+
+    }
+
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: justify;
+    }
+
+    .footer {
+      position: relative;
+      width: 100%;
+      background: hsl(192, 100%, 44.3%);
+      min-height: 100px;
+      padding: 20px 20px;
+      flex-direction: column;
+      margin-top: 4rem;
+      background-repeat: no-repeat;
+
+    }
+
+
+    #title {
+      text-transform: uppercase;
+      background-image: linear-gradient(-225deg,
+          #32af26 0%,
+          #44dff3 29%,
+          #ff1361 67%,
+          #fff800 100%);
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+      font-size: 50px;
+    }
+
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }
+
+    .navbar {
+            background-color: rgba(0, 0, 0, 0.863);
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            /* on floating it overflows from parent hence background color not visible hence overflow used above*/
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            /* padding: 3px 3px; */
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(107, 104, 104);
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129 px;
+        }
+
+        ul#menu {
+            /* margin-top: 0;
+            float: right; */
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            /* left: 200px; */
+            background-color: rgb(15, 15, 15);
+            border-radius: 30px;
+            /* color: black; */
+            margin-top: 10px;
+
+        }
+
+        .me li:hover {
+            color: rgb(13, 159, 243);
+            transform: scale(1.2);
+            text-shadow: 0in;
+        }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div style="text-align: justify;">
+      <img src="back32.png" alt="nit" width="" height="200px">
+    </div>
+    <nav class="navbar">
+      <ul class="me" id="menu">
+        <li style="text-indent: 1em;"><a href="index.html">Home</a></li>
+        <li style="text-indent: 2em;"><a href="about.html">About</a></li>
+        <li style="text-indent: 2em;"><a href="ourteam.html">Our Team</a></li>
+        <li style="text-indent: 2em;"><a href="activities.html">Activities</a></li>
+        <li style="text-indent: 2em;"><a href="faculty.html">Faculty</a></li>
+        <li style="text-indent: 2em;"><a href="contact us.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="div1">
+      <b><span id="title">ACTIVITIES </span></b>
+    </div>
+  </header>
+  <br>
+  <div class="container">
+    <div>
+      <img src="coding.jpg" width="300px">
+    </div>
+    <div class="text">
+     CODING 
+     GDSC is an excellent platform to enhance and develop their coding skills and operations.Members of this group provide help to students who want to pursue coding.Practice lessons and doubt clearing seassions are conducted to create expertise of students in coding. Different launguages, data structures and anymore topics are discussed occassionally to help stduents.
+
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="hackathon.jpg" width="300px">
+    </div>
+    <div class="text">
+      HACKATHONS are events that are conducted for students to compete within themselves in coding and other matters. This helps in developing a students competitive mind and time management. Hackathons are arranged from time to time by this club where the whole student community can join and compete.
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="comp.png" width="300px">
+    </div>
+    <div class="text">
+      Competitive programming is very essential for a student's way of thinking and logic. On practising CP, we can enhance our ability to solve a particular program or task within a given amount of time.CP also helps us in dealing with complex coding problems and questions.
+        </div>
+  </div>
+  <div class="container">
+    <div>
+      <img src="block.avif" width="100px">
+    </div>
+    <div class="text">
+      Blockchain technology enables the creation of decentralized networks where no single entity has complete control, promoting transparency, security, and resilience.
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="ml.jpg" width="200px" height="100px">
+    </div>
+    <div class="text">
+      Machine Learning (ML) typically performs various functions to ensure effective and comprehensive education in this field.
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="game.jpeg" width="270px">
+    </div>
+    <div class="text">
+      An organization involved in game development performs a wide range of functions to create, produce, and distribute video games. These functions are essential to ensure the successful development and release of engaging and high-quality games.
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="gds.avif" width="270px">
+    </div>
+    <div class="text">
+      From time to time group discussions are organised where all the members and mentors of this club sit together and discuss about the betterment of this club. 
+    </div>
+  </div>
+  <br>
+  <div>
+    <footer class="footer">
+      <p style="margin:0; text-align: center; color:#000; font-size: 40px;">
+        Contact Us -
+        <a target="_blank" href="https://www.facebook.com/nitnarula/"><img
+            src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png"
+            width="30px" height="30px"><i style="margin: 0 5px;color: white"
+            class="footerIcon fab fa-facebook-square"></i></a>
+        <a target="_blank" href="https://twitter.com/nitnarula"><img
+            src="https://imagepng.org/wp-content/uploads/2018/08/twitter-icone-3.png" width="30px" height="30px"><i
+            style="margin: 0 5px;color: white" class="footerIcon fab fa-twitter"></i></a>
+        <a target="_blank" href="https://www.instagram.com/nitnarula/"><img
+            src="https://restaurantedelariva.com/wp-content/uploads/2019/01/insta_icon.png" width="30px"
+            height="30px"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/company/nitnarula/"><img
+            src="https://th.bing.com/th/id/OIP.eF0pkJSXODlhDMKNJBhEuAHaHa?pid=ImgDet&rs=1" width="30px" height="30px"><i
+            style="margin: 0 5px;color: white" class="footerIcon fab fa-linkedin-in"></i></a>
+      </p>
+      <p style="text-align: center; color: black;">© 2023 GDSC NiT. 
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
